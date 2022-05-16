@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Gif from './gif';
 import SearchBar from './search-bar';
 
 class App extends Component {
@@ -8,7 +9,7 @@ class App extends Component {
         <div className="left-scene">
           <SearchBar />
           <div className="selected-gif">
-
+            <Gif id="zOD5XeexlbCoFWynhy"/>
           </div>
         </div>
         <div className="right-scene"></div>
