@@ -31,14 +31,10 @@ class App extends Component {
   }
 
   render() {
-    const gifs = [
-      {id: "xT1XGx3mIWL2J6PMWc"},
-      { id: "3o6ozrk8O4UmyUjoXK"}
-    ];
     return (
       <div>
         <div className="left-scene">
-          <SearchBar />
+          <SearchBar searchFunction={this.search} />
           <div className="selected-gif">
             <Gif id={this.state.selectedGifId}/>
           </div>
